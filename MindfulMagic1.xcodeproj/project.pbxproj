@@ -17,6 +17,8 @@
 		BD3A6FD62899C7590001757C /* MindfulMagic1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A6FD52899C7590001757C /* MindfulMagic1Tests.swift */; };
 		BD3A6FE02899C7590001757C /* MindfulMagic1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A6FDF2899C7590001757C /* MindfulMagic1UITests.swift */; };
 		BD3A6FE22899C7590001757C /* MindfulMagic1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A6FE12899C7590001757C /* MindfulMagic1UITestsLaunchTests.swift */; };
+		BD8A44D0289AFA8C00159CA9 /* CoreDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A44CF289AFA8C00159CA9 /* CoreDataFile.swift */; };
+		BD8A44D2289B14C000159CA9 /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A44D1289B14C000159CA9 /* AnswersViewController.swift */; };
 		BD9401C72899E627006DC849 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9401C62899E627006DC849 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		BD3A6FDB2899C7590001757C /* MindfulMagic1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulMagic1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3A6FDF2899C7590001757C /* MindfulMagic1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMagic1UITests.swift; sourceTree = "<group>"; };
 		BD3A6FE12899C7590001757C /* MindfulMagic1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMagic1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8A44CF289AFA8C00159CA9 /* CoreDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFile.swift; sourceTree = "<group>"; };
+		BD8A44D1289B14C000159CA9 /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
 		BD9401C62899E627006DC849 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 				BD3A6FBD2899C7590001757C /* SceneDelegate.swift */,
 				BD3A6FBF2899C7590001757C /* ViewController.swift */,
 				BD3A6FC12899C7590001757C /* Main.storyboard */,
+				BD8A44D1289B14C000159CA9 /* AnswersViewController.swift */,
+				BD8A44CF289AFA8C00159CA9 /* CoreDataFile.swift */,
 				BD3A6FC72899C7590001757C /* Assets.xcassets */,
 				BD3A6FC92899C7590001757C /* LaunchScreen.storyboard */,
 				BD3A6FCC2899C7590001757C /* Info.plist */,
@@ -266,8 +272,10 @@
 			files = (
 				BD9401C72899E627006DC849 /* ViewController2.swift in Sources */,
 				BD3A6FC02899C7590001757C /* ViewController.swift in Sources */,
+				BD8A44D0289AFA8C00159CA9 /* CoreDataFile.swift in Sources */,
 				BD3A6FBC2899C7590001757C /* AppDelegate.swift in Sources */,
 				BD3A6FBE2899C7590001757C /* SceneDelegate.swift in Sources */,
+				BD8A44D2289B14C000159CA9 /* AnswersViewController.swift in Sources */,
 				BD3A6FC62899C7590001757C /* MindfulMagic1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZL5A2QR52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MindfulMagic1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -472,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZL5A2QR52;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MindfulMagic1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

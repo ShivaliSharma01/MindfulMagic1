@@ -19,15 +19,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Improve1: UITextField!
     
-    var Words = [String]()
+    let words = CoreDataFile()
     
-    var Moods = [String]()
     
-    var Happies = [String]()
-    
-    var Goods = [String]()
-    
-    var Improvements = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,25 +30,31 @@ class ViewController: UIViewController {
 
     @IBAction func DoneButton(_ sender: Any) {
         if let Word = Word1.text {
-            Words.append(Word)
-            print(Words)
+            print(words.Words)
         }
         if let Mood = Mood1.text {
-            Moods.append(Mood)
-            print(Moods)
+            print(words.Moods)
         }
         if let Happy = Happy1.text {
-            Happies.append(Happy)
-            print(Happies)
+            print(words.Happies)
         }
         if let Good = Good1.text {
-            Goods.append(Good)
-            print(Goods)
+            print(words.Goods)
         }
         if let Improvement = Improve1.text {
-            Improvements.append(Improvement)
-            print(Improvements)
+            print(words.Improvements)
         }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let addVC = segue.destination as? AnswersViewController {
+          if let stuff = sender as? CoreDataFile{
+              addVC.thing = stuff
+              addVC.previousVC = self
+              
+          }
+        
+      }
+        
 
     }
     
